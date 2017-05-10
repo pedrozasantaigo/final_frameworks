@@ -1,0 +1,38 @@
+#header {
+    background: black;
+    color: white;
+    
+}
+
+#contenedor{
+    background-image: url(../galeria/comida/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    
+}
+#contenedor_turismo{
+      background-image: url(../galeria/turismo/viaje2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#medio {
+    height: 600px;
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    #contenedor{
+     background-repeat:  repeat;
+    
+}
+
+#contenedor_turismo{
+
+    background-repeat: repeat;
+   
+}
+
+}
